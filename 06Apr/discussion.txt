@@ -1,0 +1,38 @@
+MERN - Full Stack
+
+client  ->    Server   -> db
+(frontend)   (backend)   (persistent store)
+UI            App logic
+
+client: React JS | Angular | Vue JS
+       (Javascript | Typescript)
+       UI: HTML/CSS , Bootstrap
+
+server: JS (express JS) | Py (Fast/Flask/Django) | Java (SB) | C# | Go
+        (Rest API)
+
+Db: RDBMS(SQL):  oracle , sql server, mysqll,sqlite,postgres
+    NO SQL: Mongo, Cassandra
+
+MERN - Full Stack
+      client  -> server  -> db
+      React JS -> Express JS/Node JS -.Mongo Db
+
+Mongo DB:
+      cloud or local
+
+Cloud:
+    Distributed Networking
+    Cluster
+    Saas (Software as a Service)
+    Cloud
+
+
+connection string :
+mongosh "mongodb+srv://cluster0.usdurkk.mongodb.net/" --apiVersion 1 --username chinmayi
+
+mongodb+srv://cluster0.usdurkk.mongodb.net/
+
+mongodb+srv://chinmayi:1234@cluster0.usdurkk.mongodb.net/
+
+mongosh"mongodb+srv://chinmayi:1234@cluster0.usdurkk.mongodb.net/"
