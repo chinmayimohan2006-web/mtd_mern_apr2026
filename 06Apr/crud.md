@@ -34,6 +34,7 @@ mongo connect :
   db.admins.find() 
   db.admins.find({"email":"jathis@gmail.com"})    //give array of documents
   db.admins.findOne({"email":"jathis@gmail.com"})   //gives only one document
+  
 
   
 

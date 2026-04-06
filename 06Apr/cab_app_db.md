@@ -1,0 +1,24 @@
+Cab Management
+
+mongosh "mongodb+srv://chinmayi:1234@cluster0.usdurkk.mongodb.net/"
+
+use cab_app_db
+ db.cars.insertOne({"id":"1","model":"A6","number":"KA09 AC 1234","type":"XUV","photo":""})
+ show dbs
+  db.cars.insertMany([{"id":"1","model":"A6","number":"KA09 AC 1234","type":"XUV","photo":""},
+  {"id":"2","model":"b12","number":"KA09 AC 1284","type":"Geep","photo":""},
+  {"id":"3","model":"Rox","number":"KA09 AC 1235","type":"Thar","photo":""},
+  {"id":"4","model":"F12","number":"KA09 AC 4567","type":"SUV","photo":""}
+  {"id":"5","model":"W1","number":"KA09 AC 1879","type":"Ather","photo":""}
+  {"id":"6","model":"Q2","number":"KA09 AC 1847","type":"swift","photo":""}
+  {"id":"7","model":"S28","number":"KA09 AC 2569","type":"Hybrid","photo":""}
+  {"id":"8","model":"W12","number":"KA09 AC 3232","type":"Inova","photo":""}
+  {"id":"9","model":"C12","number":"KA09 AC 7000","type":"Mobilio","photo":""}
+  {"id":"10","model":"A2","number":"KA09 AC 1879","type":"ridz","photo":""}
+  {"id":"11","model":"S12","number":"KA09 AC 1721","type":"Gwagon","photo":""}])
+db.cars.updateOne({"id":"3"},
+       {$set:{"model":"Rox 4X4"}})
+db.cars.deleteOne({"id":"11"})
+exit
+mongosh "mongodb+srv://chinmayi:1234@cluster0.usdurkk.mongodb.net/"
+db.admins.find() 
