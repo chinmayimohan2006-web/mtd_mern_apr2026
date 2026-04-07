@@ -4,15 +4,15 @@
 
   1. Mobile Management 
        mobiles {id,anme,model,price,photo}
-       admins
+       admins.
 
   2. Patient Management
        patients {id ,name, gender,age,photo}
-       admins
+       admins.
 
   3. Cab management
         cars {id,model, number,type, photo}
-        admins
+        admins.
 
 
 In CMD
