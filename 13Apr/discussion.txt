@@ -8,5 +8,14 @@ Database connection in node JS:
      model          collection
       +schema
     document        documet
-      as js objct       
+      as js objct       as bson
     JSON
+
+
+
+    API End Points:
+    1. create   |create|POST/api/trainers  |JSON BODY| RESPONSE saved trainers
+    2. read all |find|GET/api/trainers/search |RESPONSE quaired trainers
+    3. read by id |findByID | GET/api?trainers/:id |RESPONSE quired trainers
+    4. update |findByIDAndUpdate | PUT /api/trainers/:id| REQ JSON BODY |RESPONSE updated trainers
+    5. delete |findByIDAndDelete |DELETE /api/trainers/:id |RESPONSE msg
