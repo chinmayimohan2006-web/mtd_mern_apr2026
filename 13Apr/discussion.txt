@@ -1,0 +1,12 @@
+Database connection in node JS:
+     ORM objct relation mapping : sequelize
+     ODM mongo db object document mapping : mongoose
+
+
+     TS/JS          mongo
+     Database       Database
+     model          collection
+      +schema
+    document        documet
+      as js objct       
+    JSON
